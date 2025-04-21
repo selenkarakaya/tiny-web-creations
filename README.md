@@ -39,7 +39,8 @@ Each project focuses on different aspects of frontend development, including:
 | 12 | Random Choice Picker             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | 
 | 13 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
 | 14 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | 
-
+| 15 | 🌍 Country Finder                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/country-finder/)    | 
+ 
  
 
 
