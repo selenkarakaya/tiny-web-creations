@@ -30,7 +30,9 @@ Each project focuses on different aspects of frontend development, including:
 | 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | 
 | 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
 | 05 | Blurry Loading                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | 
-| 06 | Scroll Animation                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | 
+| 06 | Scroll Animation                 | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | 
+| 07 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | 
+| 08 | Form Wave Animation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | 
 
 
 
