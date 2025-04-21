@@ -35,6 +35,8 @@ Each project focuses on different aspects of frontend development, including:
 | 08 | Form Wave Animation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | 
 | 09 | Sound Board                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/sound-board/)    | 
 | 10 | Event KeyCodes                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | 
+| 11 | FAQ Collapse                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/faq-collapse/)    | 
+| 12 | Random Choice Picker             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | 
 
 
 
