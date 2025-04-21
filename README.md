@@ -21,7 +21,7 @@ Each project focuses on different aspects of frontend development, including:
 
 > 🧠  I'm doing these projects to get better at frontend development in a fun, practical way. I learn best by building things — and these small apps help me turn theory into real code.
 
-## 📁 Projects include:
+## 📁 Projects include: 
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
@@ -30,6 +30,7 @@ Each project focuses on different aspects of frontend development, including:
 | 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | 
 | 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
 | 05 | Blurry Loading                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | 
+| 06 | Scroll Animation                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | 
 
 
 
