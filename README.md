@@ -24,10 +24,12 @@ Each project focuses on different aspects of frontend development, including:
 ## 📁 Projects include:
 
 | #  | Project Name                      | Live Demo         |
-|----|----------------------------------|-------------------|
+|----|----------------------------------|-------------------|hidden-search
 | 01 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
 | 02 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | 
-| 03 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/)    | 
+| 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/)    | 
+| 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
+| 05 | Blurry Loading                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | 
 
 
 
