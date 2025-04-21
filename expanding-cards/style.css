@@ -31,7 +31,8 @@ body {
   flex: 0.5;
   margin: 0.5rem;
   position: relative;
-  transition: flex 0.7s ease-in;
+  transition: flex 0.7s ease-in, filter 0.5s ease, transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 .panel h3 {
@@ -41,17 +42,27 @@ body {
   left: 20px;
   margin: 1rem;
   opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.3s ease-out;
 }
 
 .panel.active {
   flex: 5;
+  filter: grayscale(0%) brightness(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .panel.active h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
+  transform: translateY(0);
+  transition: opacity 0.4s ease-in, transform 0.4s ease-in;
 }
-
+.panel:hover {
+  filter: grayscale(30%) brightness(1.1);
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+}
 @media (max-width: 480px) {
   .container {
     width: 100vw;
