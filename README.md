@@ -13,7 +13,7 @@ Each project focuses on different aspects of frontend development, including:
 
 ## 🧩 Planned Projects
 
-- Expanding Cards  
+  
 - Scroll Animation  
 - Dad Jokes Generator  
 - Todo List  
@@ -25,7 +25,7 @@ Each project focuses on different aspects of frontend development, including:
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
-| 01 | Expanding Cards                  | [Live Demo](#)    |
+| 01 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    |
 
 
 
