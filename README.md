@@ -21,11 +21,12 @@ Each project focuses on different aspects of frontend development, including:
 
 > 🧠  I'm doing these projects to get better at frontend development in a fun, practical way. I learn best by building things — and these small apps help me turn theory into real code.
 
-## 📁 Projects include:
+## 📁 Projects include:progress-steps
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
-| 01 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    |
+| 01 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
+| 02 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | 
 
 
 
