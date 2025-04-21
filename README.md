@@ -31,14 +31,16 @@ Each project focuses on different aspects of frontend development, including:
 | 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
 | 05 | Blurry Loading                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | 
 | 06 | Scroll Animation                 | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | 
-| 07 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | 
+| 07 | BMR Calculator Tool              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/BMR-Calculator/)    | 
 | 08 | Form Wave Animation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | 
 | 09 | Sound Board                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/sound-board/)    | 
 | 10 | Event KeyCodes                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | 
 | 11 | FAQ Collapse                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/faq-collapse/)    | 
 | 12 | Random Choice Picker             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | 
 | 13 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
+| 14 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | 
 
+ 
 
 
 ## 🛠️ Technologies Used
