@@ -34,6 +34,7 @@ Each project focuses on different aspects of frontend development, including:
 | 07 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | 
 | 08 | Form Wave Animation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | 
 | 09 | Sound Board                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/sound-board/)    | 
+| 10 | Event KeyCodes                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | 
 
 
 
