@@ -25,8 +25,8 @@ Each project focuses on different aspects of frontend development, including:
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
-| 01 | Expanding Cards                  | [Live Demo](https://github.com/bradtraversy/50projects50days/tree/master)    |
 | 01 | Expanding Cards                  | [Live Demo](#)    |
+
 
 
 ## 🛠️ Technologies Used
