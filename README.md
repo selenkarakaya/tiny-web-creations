@@ -1,4 +1,4 @@
-# Mini Projects with HTML, CSS & JavaScript
+# Mini Projects with HTML, CSS, Bootstrap, JavaScript & React
 
 This repository contains a collection of mini web development projects built with **HTML**, **CSS**, and **JavaScript**. These projects are part of a hands-on, project-based course designed to strengthen your understanding of the **DOM (Document Object Model)** and core web development concepts.
 
