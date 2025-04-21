@@ -25,7 +25,7 @@ Each project focuses on different aspects of frontend development, including:
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
-| 01 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
+| 01 | Workout Finder                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/WorkoutFinder/)    | 
 | 02 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | 
 | 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | 
 | 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
@@ -37,6 +37,7 @@ Each project focuses on different aspects of frontend development, including:
 | 10 | Event KeyCodes                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | 
 | 11 | FAQ Collapse                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/faq-collapse/)    | 
 | 12 | Random Choice Picker             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | 
+| 13 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | 
 
 
 
