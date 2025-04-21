@@ -1,0 +1,50 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task label.checked {
+  text-decoration: line-through;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters span.active {
+  color: #ff9800;
+}
+
+.filters span {
+  margin-right: 5px;
+  font-size: 15px;
+  column-rule-color: #444444;
+  cursor: pointer;
+}
+
+.fa-trash-can {
+  color: red;
+}
+
+.fa-pen {
+  color: #90d26d;
+}
+
+.fa-ellipsis {
+  color: #2c7865;
+}
+
+.btnAdd {
+  background-color: #90d26d;
+}
+
+.card-header {
+  background-color: #d9edbf;
+}
