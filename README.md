@@ -25,7 +25,7 @@ Each project focuses on different aspects of frontend development, including:
 
 | #  | Project Name                      | Live Demo         |
 |----|----------------------------------|-------------------|
-| 01 | Workout Finder                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/WorkoutFinder/)    | 
+| 01 | Workout Finder                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/WorkoutFinder/)    | HTML - BOOTSTRAP - JAVASCRIPT |
 | 02 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | 
 | 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | 
 | 04 | Hidden Search Widget             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | 
