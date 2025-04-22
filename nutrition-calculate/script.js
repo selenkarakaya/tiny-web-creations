@@ -51,7 +51,6 @@ function getFood(query) {
   });
 }
 
-// tablo olarak deneme
 function renderFood(data) {
   const name = data.name;
   const firstLetter = name.charAt(0);
@@ -78,7 +77,6 @@ function calculateDueAmount() {
   var tblRows = document.getElementById("tbody").getElementsByTagName("tr");
   let total = 0;
   for (var i = 0; i < tblRows.length; i++) {
-    // console.log(tblRows[i]);
     let lineTotal = tblRows[i]
       .getElementsByTagName("td")[4]
       .getElementsByTagName("input")[0].value;
