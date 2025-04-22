@@ -1,7 +1,7 @@
-let gorevListesi = [];
+let taskList = [];
 
-if (localStorage.getItem("gorevListesi") !== null) {
-  gorevListesi = JSON.parse(localStorage.getItem("gorevListesi"));
+if (localStorage.getItem("taskList") !== null) {
+  taskList = JSON.parse(localStorage.getItem("taskList"));
 }
 
 let editId;
@@ -17,26 +17,26 @@ function displayTasks(filter) {
   let ul = document.getElementById("task-list");
   ul.innerHTML = "";
 
-  if (gorevListesi.length == 0) {
+  if (taskList.length == 0) {
     ul.innerHTML = "<p class='p-3 m-0'></p>";
   } else {
-    for (let gorev of gorevListesi) {
-      let completed = gorev.durum == "completed" ? "checked" : "";
+    for (let task of taskList) {
+      let completed = task.status == "completed" ? "checked" : "";
 
-      if (filter == gorev.durum || filter == "all") {
+      if (filter == task.status || filter == "all") {
         let li = `
                             <li class="task list-group-item">
                                 <div class="form-check">
-                                    <input type="checkbox" onclick="updateStatus(this)" id="${gorev.id}" class="form-check-input" ${completed}>
-                                    <label for="${gorev.id}" class="form-check-label ${completed}">${gorev.gorevAdi}</label>
+                                    <input type="checkbox" onclick="updateStatus(this)" id="${task.id}" class="form-check-input" ${completed}>
+                                    <label for="${task.id}" class="form-check-label ${completed}">${task.taskName}</label>
                                 </div>
                                 <div class="dropdown">
                                     <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa-solid fa-ellipsis"></i>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a onclick="deleteTask(${gorev.id})" class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
-                                        <li><a onclick='editTask(${gorev.id}, "${gorev.gorevAdi}")' class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i> Edit</a></li>
+                                        <li><a onclick="deleteTask(${task.id})" class="dropdown-item" href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>
+                                        <li><a onclick='editTask(${task.id}, "${task.taskName}")' class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i> Edit</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -66,27 +66,27 @@ for (let span of filters) {
 
 function newTask(event) {
   if (taskInput.value == "") {
-    alert("görev girmelisiniz");
+    alert("You must enter a task.");
   } else {
     if (!isEditTask) {
-      // ekleme
-      gorevListesi.push({
-        id: gorevListesi.length + 1,
-        gorevAdi: taskInput.value,
-        durum: "pending",
+      // adding
+      taskList.push({
+        id: taskList.length + 1,
+        taskName: taskInput.value,
+        status: "pending",
       });
     } else {
-      // güncelleme
-      for (let gorev of gorevListesi) {
-        if (gorev.id == editId) {
-          gorev.gorevAdi = taskInput.value;
+      // updating
+      for (let task of taskList) {
+        if (task.id == editId) {
+          task.taskName = taskInput.value;
         }
         isEditTask = false;
       }
     }
     taskInput.value = "";
     displayTasks(document.querySelector("span.active").id);
-    localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
+    localStorage.setItem("taskList", JSON.stringify(taskList));
   }
 
   event.preventDefault();
@@ -95,15 +95,15 @@ function newTask(event) {
 function deleteTask(id) {
   let deletedId;
 
-  for (let index in gorevListesi) {
-    if (gorevListesi[index].id == id) {
+  for (let index in taskList) {
+    if (taskList[index].id == id) {
       deletedId = index;
     }
   }
 
-  gorevListesi.splice(deletedId, 1);
+  taskList.splice(deletedId, 1);
   displayTasks(document.querySelector("span.active").id);
-  localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
+  localStorage.setItem("taskList", JSON.stringify(taskList));
 }
 
 function editTask(taskId, taskName) {
@@ -118,31 +118,30 @@ function editTask(taskId, taskName) {
 }
 
 btnClear.addEventListener("click", function () {
-  gorevListesi.splice(0, gorevListesi.length);
-  localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
+  taskList.splice(0, taskList.length);
+  localStorage.setItem("taskList", JSON.stringify(taskList));
   displayTasks();
 });
 
 function updateStatus(selectedTask) {
-  // console.log(selectedTask.parentElement.lastElementChild);
   let label = selectedTask.nextElementSibling;
-  let durum;
+  let status;
 
   if (selectedTask.checked) {
     label.classList.add("checked");
-    durum = "completed";
+    status = "completed";
   } else {
     label.classList.remove("checked");
-    durum = "pending";
+    status = "pending";
   }
 
-  for (let gorev of gorevListesi) {
-    if (gorev.id == selectedTask.id) {
-      gorev.durum = durum;
+  for (let task of taskList) {
+    if (task.id == selectedTask.id) {
+      task.status = status;
     }
   }
 
   displayTasks(document.querySelector("span.active").id);
 
-  localStorage.setItem("gorevListesi", JSON.stringify(gorevListesi));
+  localStorage.setItem("taskList", JSON.stringify(taskList));
 }
