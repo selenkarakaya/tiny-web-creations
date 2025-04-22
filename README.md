@@ -14,8 +14,8 @@ Each project focuses on different aspects of frontend development, including:
 ## 🧩 Planned Projects
 
   
-- Scroll Animation  
-- Dad Jokes Generator  
+- Password Generator  
+- Image Carousel  
 - Todo List  
 ...and more to be added over time!
 
