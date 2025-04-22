@@ -1,6 +1,6 @@
 # Mini Projects with HTML, CSS, Bootstrap, JavaScript & React
 
-This repository contains a collection of mini web development projects built with **HTML**, **CSS**, and **JavaScript**. These projects are part of a hands-on, project-based course designed to strengthen your understanding of the **DOM (Document Object Model)** and core web development concepts.
+This repository contains a collection of mini web development projects built with **HTML**, **CSS**, **JavaScript**, and **React**. These projects are part of a hands-on, project-based course designed to strengthen your understanding of the **DOM (Document Object Model)** and core web development concepts.
 
 ## 🎯 About the Projects
 
@@ -9,11 +9,11 @@ Each project focuses on different aspects of frontend development, including:
 - DOM manipulation and events  
 - CSS animations and transitions  
 - Responsive design using Flexbox and Media Queries  
-- JavaScript fundamentals like arrays, functions, and HTTP requests  
+- JavaScript fundamentals like arrays, functions, and HTTP requests
+- React fundamentals
 
 ## 🧩 Planned Projects
 
-  
 - Password Generator  
 - Image Carousel  
 - Todo List  
