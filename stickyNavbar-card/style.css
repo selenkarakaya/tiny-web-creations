@@ -68,10 +68,10 @@ body {
 }
 
 .hero {
-  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("images/IMG_4766.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   height: 100vh;
   color: #fff;
   display: flex;
@@ -206,89 +206,70 @@ button:focus {
 }
 
 /* Card */
-.card {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  overflow: hidden;
-  width: 350px;
+.cards {
   margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
 }
 
 .card-header {
   height: 200px;
-}
-
-.card-header img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.card-content {
-  background-color: #fff;
-  padding: 30px;
-}
-
-.card-title {
-  height: 20px;
-  margin: 0;
-}
-
-.card-excerpt {
-  color: #777;
-  margin: 10px 0 20px;
-}
-
-.author {
+  background-size: cover;
+  background-position: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
-.profile-img {
-  border-radius: 50%;
-  overflow: hidden;
-  height: 40px;
-  width: 40px;
+.card-header h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.author-info {
+.card-body {
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-left: 10px;
-  width: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
-.author-info small {
-  color: #aaa;
-  margin-top: 5px;
+.card-body p {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-.animated-bg {
-  background-image: linear-gradient(
-    to right,
-    #f6f7f8 0%,
-    #edeef1 10%,
-    #f6f7f8 20%,
-    #f6f7f8 100%
-  );
-  background-size: 200% 100%;
-  animation: bgPos 1s linear infinite;
+.card-body ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
 }
 
-.animated-bg-text {
-  border-radius: 50px;
+.card-body ul li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.btn {
   display: inline-block;
-  margin: 0;
-  height: 10px;
-  width: 100%;
+  background-color: #021d3b;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
-@keyframes bgPos {
-  0% {
-    background-position: 50% 0;
-  }
-
-  100% {
-    background-position: -150% 0;
-  }
+.btn:hover {
+  background-color: #054384;
 }

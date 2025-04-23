@@ -30,7 +30,7 @@ $(document).ready(() => {
   setTimeout(getData, 2500);
 
   const $textEl = $("#text");
-  const text = "We Love Programming!";
+  const text = "Nature Awaits, Explore the Beauty!";
   let idx = 1;
   const speed = 150; // sabit hız (milisaniye)
 
