@@ -55,4 +55,45 @@ $(document).ready(() => {
       $("#liters").text(`${2 - (250 * $fullCups) / 1000}L`);
     }
   }
+
+  $("#reset-button").on("click", () => {
+    $(".cup-small").removeClass("full");
+    $("#percentage").css({ visibility: "hidden", height: 0 });
+    $("#remained").css("visibility", "visible");
+    $("#liters").text("2L");
+  });
+
+  // Add animation effects to the reset button.
+
+  $("#reset-button").on("click", (e) => {
+    // These give the X and Y coordinates of where the user clicked, relative to the entire page.
+
+    const $x = e.pageX;
+    const $y = e.pageY;
+
+    //The button's position on the page.
+
+    const $buttonTop = e.currentTarget.offsetTop;
+    const $buttonLeft = e.currentTarget.offsetLeft;
+
+    //These calculate the position inside the button where the user clicked.
+    const $xInside = $x - $buttonLeft;
+    const $yInside = $y - $buttonTop;
+
+    // Append the ripple effect span to the button
+
+    const $circle = $("<span></span>")
+      .addClass("circle")
+      .css({ top: $yInside + "px", left: $xInside + "px" });
+
+    /*  
+If the circle stays in the DOM after the animation:
+A new one is added every time you click, and the old ones pile up.
+This can decrease performance and also mess up the visual appearance.
+ */
+    $(e.currentTarget).append($circle);
+    setTimeout(() => {
+      $circle.remove();
+    }, 600);
+  });
 });
