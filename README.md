@@ -47,7 +47,7 @@ Each project focuses on different aspects of frontend development, including:
 | 20 | [Animated Navigation](https://github.com/selenkarakaya/tiny-web-creations/tree/main/animated-navigation)                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/animated-navigation/)    | HTML - BOOTSTRAP - JQUERY |
 | 21 | [Aqua Buddy](https://github.com/selenkarakaya/tiny-web-creations/tree/main/drink-water)                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/drink-water/)    | HTML - CSS - JQUERY |
 | 22 | [TravelUI Demo](https://github.com/selenkarakaya/tiny-web-creations/tree/main/travelUI)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/travelUI/)    | HTML - CSS - JQUERY |
-
+| 23 | [Password Generator](https://github.com/selenkarakaya/tiny-web-creations/tree/main/password-generator)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/password-generator/)    | HTML - CSS - JQUERY |
 ---
 
 Happy coding! 🚀
