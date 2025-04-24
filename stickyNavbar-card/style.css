@@ -273,3 +273,51 @@ button:focus {
 .btn:hover {
   background-color: #054384;
 }
+
+/* carousel */
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+}
+.carousel img {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 600px;
+  width: 350px;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.carousel .btn {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.carousel .btn:hover {
+  opacity: 0.9;
+}
+
+.carousel .btn:focus {
+  outline: none;
+}

@@ -9,26 +9,7 @@ $(document).ready(() => {
 
   $(window).on("scroll", fixedNav);
 
-  const getData = () => {
-    $("#header").html(
-      '<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="" />'
-    );
-    $("#title").text("Lorem ipsum dolor sit amet");
-    $("#excerpt").text(
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis"
-    );
-    $("#profile_img").html(
-      '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />'
-    );
-    $("#name").text("John Doe");
-    $("#date").text("Oct 08, 2020");
-
-    $("#animated_bg").removeClass("animated-bg");
-    $("#animated_bg_text").removeClass("animated-bg-text");
-  };
-
-  setTimeout(getData, 2500);
-
+  // animated text
   const $textEl = $("#text");
   const text = "Nature Awaits, Explore the Beauty!";
   let idx = 1;
@@ -46,4 +27,32 @@ $(document).ready(() => {
   }
 
   writeText();
+
+  // image carousel
+
+  const imgs = $("#imgs");
+  const leftBtn = $("#left");
+  const rightBtn = $("#right");
+
+  const img = $("#imgs img");
+  console.log(img.length);
+  let index = 0;
+
+  let interval = setInterval(run, 2000);
+
+  function run() {
+    index++;
+    changeImage();
+  }
+
+  function changeImage() {
+    // if image ends
+    if (index > img.length - 1) {
+      index = 0; // back to begining
+    } else if (index < 0) {
+      index = img.length - 1;
+    }
+
+    imgs.css("transform", `translateX(${-index * 350}px)`);
+  }
 });
