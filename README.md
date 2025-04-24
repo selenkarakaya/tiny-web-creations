@@ -25,28 +25,28 @@ Each project focuses on different aspects of frontend development, including:
 
 | #  | Project Name                      | 🌐 Live Demo         | 🛠️ Technologies Used |
 |----|----------------------------------|-------------------|---------------------------------------------------------------|
-| 01 | 🏋️‍♂️ Workout Finder                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/WorkoutFinder/)    | HTML - BOOTSTRAP - JAVASCRIPT |
-| 02 | Progress Steps                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | HTML - CSS - JAVASCRIPT |
-| 03 | Rotating Navigation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | HTML - CSS - JAVASCRIPT |
-| 04 | 🔍 Hidden Search Widget          | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | HTML - CSS - JAVASCRIPT |
-| 05 | Blurry Loading                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | HTML - CSS - JAVASCRIPT |
-| 06 | Scroll Animation                 | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | HTML - CSS - JAVASCRIPT |
-| 07 | BMR Calculator Tool              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/BMR-Calculator/)    | HTML - BOOTSTRAP - JAVASCRIPT |
-| 08 | Form Wave Animation              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | HTML - CSS - JAVASCRIPT |
-| 09 | 🔊 Sound Board                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/sound-board/)    | HTML - CSS - JAVASCRIPT |
-| 10 | Event KeyCodes                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | HTML - CSS - JAVASCRIPT |
-| 11 | ❓ FAQ Collapse                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/faq-collapse/)    | HTML - CSS - JAVASCRIPT |
-| 12 | Random Choice Picker             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | HTML - CSS - JAVASCRIPT |
-| 13 | Expanding Cards                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | HTML - CSS - JAVASCRIPT |
-| 14 | Split Landing Page               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | HTML - CSS - JAVASCRIPT |
-| 15 | 🌍 Country Finder                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/country-finder/)    | HTML - BOOTSTRAP - JAVASCRIPT |
-| 16 | 🥗 Nutrition Calculate              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/nutrition-calculate/)    | HTML - BOOTSTRAP - JAVASCRIPT |
+| 01 | 🏋️‍♂️ [Workout Finder](https://github.com/selenkarakaya/tiny-web-creations/tree/main/WorkoutFinder)                    | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/WorkoutFinder/)    | HTML - BOOTSTRAP - JAVASCRIPT |
+| 02 | [Progress Steps](https://github.com/selenkarakaya/tiny-web-creations/tree/main/progress-steps)                    | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/progress-steps/)    | HTML - CSS - JAVASCRIPT |
+| 03 | [Rotating Navigation](https://github.com/selenkarakaya/tiny-web-creations/tree/main/rotating-nav-animation)               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/rotating-nav-animation/) | HTML - CSS - JAVASCRIPT |
+| 04 | 🔍 [Hidden Search Widget](https://github.com/selenkarakaya/tiny-web-creations/tree/main/hidden-search)           | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/hidden-search/)    | HTML - CSS - JAVASCRIPT |
+| 05 | [Blurry Loading](https://github.com/selenkarakaya/tiny-web-creations/tree/main/blurry-loading)                    | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/blurry-loading/)    | HTML - CSS - JAVASCRIPT |
+| 06 | [Scroll Animation](https://github.com/selenkarakaya/tiny-web-creations/tree/main/scroll-animation)                  | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/scroll-animation/)    | HTML - CSS - JAVASCRIPT |
+| 07 | [BMR Calculator Tool](https://github.com/selenkarakaya/tiny-web-creations/tree/main/BMR-Calculator)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/BMR-Calculator/)    | HTML - BOOTSTRAP - JAVASCRIPT |
+| 08 | [Form Wave Animation](https://github.com/selenkarakaya/tiny-web-creations/tree/main/form-input-wave)               | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/form-input-wave/)    | HTML - CSS - JAVASCRIPT |
+| 09 | 🔊 [Sound Board](https://github.com/selenkarakaya/tiny-web-creations/tree/main/sound-board)                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/sound-board/)    | HTML - CSS - JAVASCRIPT |
+| 10 | [Event KeyCodes](https://github.com/selenkarakaya/tiny-web-creations/tree/main/event-keycodes)                   | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/event-keycodes/)    | HTML - CSS - JAVASCRIPT |
+| 11 | ❓ [FAQ Collapse](https://github.com/selenkarakaya/tiny-web-creations/tree/main/faq-collapse)                      | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/faq-collapse/)    | HTML - CSS - JAVASCRIPT |
+| 12 | [Random Choice Picker](https://github.com/selenkarakaya/tiny-web-creations/tree/main/expanding-cards)            | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/random-choice-picker/)    | HTML - CSS - JAVASCRIPT |
+| 13 | [Expanding Cards](https://github.com/selenkarakaya/tiny-web-creations/tree/main/expanding-cards)                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/expanding-cards/)    | HTML - CSS - JAVASCRIPT |
+| 14 | [Split Landing Page](https://github.com/selenkarakaya/tiny-web-creations/tree/main/split-landing-pagen)              | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/split-landing-pagen/)    | HTML - CSS - JAVASCRIPT |
+| 15 | 🌍 [Country Finder](https://github.com/selenkarakaya/tiny-web-creations/tree/main/country-finder)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/country-finder/)    | HTML - BOOTSTRAP - JAVASCRIPT |
+| 16 | 🥗 [Nutrition Calculate](https://github.com/selenkarakaya/tiny-web-creations/tree/main/nutrition-calculate)                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/nutrition-calculate/)    | HTML - BOOTSTRAP - JAVASCRIPT |
 | 17 | [Shopping List](https://github.com/selenkarakaya/ShoppingList-with-React) | [Live Demo](https://grocerychecklist.netlify.app)| HTML - CSS - JS/REACT |
 | 18 | 🗣️ [Testimonials-UI](https://github.com/selenkarakaya/Testimonials-UI_withReact) | [Live Demo](https://testimonialsui.netlify.app)| HTML - CSS - JS/REACT |
-| 19 | Task Tracker                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/task-tracker/)    | HTML - BOOTSTRAP - JAVASCRIPT |
-| 20 | Animated Navigation                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/animated-navigation/)    | HTML - BOOTSTRAP - JQUERY |
-| 21 | Aqua Buddy                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/drink-water/)    | HTML - CSS - JQUERY |
-| 22 | [TravelUI Demo](https://github.com/selenkarakaya/tiny-web-creations/tree/main/travelUI-demo%20)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/travelUI-demo/)    | HTML - CSS - JQUERY |
+| 19 | [Task Tracker](https://github.com/selenkarakaya/tiny-web-creations/tree/main/task-tracker)                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/task-tracker/)    | HTML - BOOTSTRAP - JAVASCRIPT |
+| 20 | [Animated Navigation](https://github.com/selenkarakaya/tiny-web-creations/tree/main/animated-navigation)                | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/animated-navigation/)    | HTML - BOOTSTRAP - JQUERY |
+| 21 | [Aqua Buddy](https://github.com/selenkarakaya/tiny-web-creations/tree/main/drink-water)                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/drink-water/)    | HTML - CSS - JQUERY |
+| 22 | [TravelUI Demo](https://github.com/selenkarakaya/tiny-web-creations/tree/main/travelUI)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/travelUI/)    | HTML - CSS - JQUERY |
 
 ---
 
