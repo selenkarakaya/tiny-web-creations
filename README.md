@@ -45,7 +45,8 @@ Each project focuses on different aspects of frontend development, including:
 | 18 | 🗣️ [Testimonials-UI](https://github.com/selenkarakaya/Testimonials-UI_withReact) | [Live Demo](https://testimonialsui.netlify.app)| HTML - CSS - JS/REACT |
 | 19 | Task Tracker                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/task-tracker/)    | HTML - BOOTSTRAP - JAVASCRIPT |
 | 20 | Animated Navigation                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/animated-navigation/)    | HTML - BOOTSTRAP - JQUERY |
-| 21 | Aqua Buddy                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/drink-water/)    | HTML - BOOTSTRAP - JQUERY |
+| 21 | Aqua Buddy                     | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/drink-water/)    | HTML - CSS - JQUERY |
+| 22 | [TravelUI Demo](https://github.com/selenkarakaya/tiny-web-creations/tree/main/travelUI-demo%20)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/travelUI-demo/)    | HTML - CSS - JQUERY |
 
 ---
 
