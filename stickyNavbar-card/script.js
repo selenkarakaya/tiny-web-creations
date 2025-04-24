@@ -30,29 +30,22 @@ $(document).ready(() => {
 
   // image carousel
 
-  const imgs = $("#imgs");
-  const leftBtn = $("#left");
-  const rightBtn = $("#right");
-
-  const img = $("#imgs img");
-  console.log(img.length);
   let index = 0;
 
-  let interval = setInterval(run, 2000);
+  setInterval(run, 2000);
 
   function run() {
     index++;
     changeImage();
   }
-
   function changeImage() {
     // if image ends
-    if (index > img.length - 1) {
+    if (index > $("#imgs img").length - 1) {
       index = 0; // back to begining
     } else if (index < 0) {
-      index = img.length - 1;
+      index = $("#imgs img").length - 1;
     }
 
-    imgs.css("transform", `translateX(${-index * 350}px)`);
+    $("#imgs").css("transform", `translateX(${-index * 350}px)`);
   }
 });

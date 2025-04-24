@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Photo Carousel</title>
+    <title>Photo & Review</title>
   </head>
   <body>
+    <nav class="nav nav-photo">
+      <div class="container">
+        <h1 class="logo">
+          <a href="/index.html">Live Nature, Breathe Life.</a>
+        </h1>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="./photo.html" class="current">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="photo-container">
       <div class="carousel">
         <div class="image-container" id="imgs">
@@ -23,15 +36,22 @@
           <img src="images/IMG_4790.JPG" alt="fourth-image" />
           <img src="images/IMG_4791.JPG" alt="fifth-image" />
         </div>
-
-        <div class="buttons-container">
-          <button id="left" class="btn">Prev</button>
-          <button id="right" class="btn">Next</button>
-        </div>
       </div>
     </div>
 
+    <div class="testimonial-container">
+      <div class="progress-bar"></div>
+      <p class="testimonial">
+        Absolutely stunning destinations! This website truly captures the charm
+        and beauty of the UK countryside. The photos, descriptions, and travel
+        tips are super helpful for planning a memorable trip. I can’t wait to
+        explore North Wales and the Cotswolds after reading through all this
+        inspiring content!
+      </p>
+      <h4 class="username">Miyah Myles</h4>
+    </div>
+
     <script src="script.js"></script>
-    <script src="slider.js"></script>
+    <script src="testimonial.js"></script>
   </body>
 </html>
