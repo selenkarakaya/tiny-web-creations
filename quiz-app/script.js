@@ -5,16 +5,6 @@ const start = document.querySelector("#start");
 const quiz = document.getElementById("quiz");
 runAnimation();
 
-// function resetDOM() {
-//   counter.classList.remove("hide");
-//   finalMessage.classList.remove("show");
-
-//   nums.forEach((num) => {
-//     num.classList.value = "";
-//   });
-
-//   nums[0].classList.add("in");
-// }
 
 function runAnimation() {
   nums.forEach((num, idx) => {
