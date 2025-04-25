@@ -49,7 +49,8 @@ Each project focuses on different aspects of frontend development, including:
 | 22 | [TravelUI Demo](https://github.com/selenkarakaya/tiny-web-creations/tree/main/travelUI)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/travelUI/)    | HTML - CSS - JQUERY |
 | 23 | [Password Generator](https://github.com/selenkarakaya/tiny-web-creations/tree/main/password-generator)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/password-generator/)    | HTML - CSS - JQUERY |
 | 24 | [Password Strength Background](https://github.com/selenkarakaya/tiny-web-creations/tree/main/password-strength-background)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/password-strength-background/)    | HTML - Tailwind - JQUERY |
-| 25 | [Background Slider](https://github.com/selenkarakaya/tiny-web-creations/tree/main/background-slider)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/background-slider/)    | HTML - CSS- JQUERY |
+| 25 | [Background Slider](https://github.com/selenkarakaya/tiny-web-creations/tree/main/background-slider)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/background-slider/)    | HTML - CSS- JAVASCRIPT |
+| 25 | [Quiz App](https://github.com/selenkarakaya/tiny-web-creations/tree/main/quiz-app)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/quiz-app/)    | HTML - CSS- JAVASCRIPT |
 ---
 
 Happy coding! 🚀
