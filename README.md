@@ -51,6 +51,7 @@ Each project focuses on different aspects of frontend development, including:
 | 24 | [Password Strength Background](https://github.com/selenkarakaya/tiny-web-creations/tree/main/password-strength-background)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/password-strength-background/)    | HTML - Tailwind - JQUERY |
 | 25 | [Background Slider](https://github.com/selenkarakaya/tiny-web-creations/tree/main/background-slider)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/background-slider/)    | HTML - CSS- JAVASCRIPT |
 | 25 | [Quiz App](https://github.com/selenkarakaya/tiny-web-creations/tree/main/quiz-app)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/quiz-app/)    | HTML - CSS- JAVASCRIPT |
+| 26 | [Mixed Message Generator](https://github.com/selenkarakaya/mixed-messages)             | [Live Demo](https://selenkarakaya.github.io/mixed-messages/)    | HTML - CSS- JAVASCRIPT |
 ---
 
 Happy coding! 🚀
