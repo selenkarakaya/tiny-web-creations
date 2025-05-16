@@ -52,6 +52,7 @@ Each project focuses on different aspects of frontend development, including:
 | 25 | [Background Slider](https://github.com/selenkarakaya/tiny-web-creations/tree/main/background-slider)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/background-slider/)    | HTML - CSS- JAVASCRIPT |
 | 25 | [Quiz App](https://github.com/selenkarakaya/tiny-web-creations/tree/main/quiz-app)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/quiz-app/)    | HTML - CSS- JAVASCRIPT |
 | 26 | [Mixed Message Generator](https://github.com/selenkarakaya/mixed-messages)             | [Live Demo](https://selenkarakaya.github.io/mixed-messages/)    | HTML - CSS- JAVASCRIPT |
+| 25 | [To Do List](https://github.com/selenkarakaya/tiny-web-creations/tree/main/todo-list)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/todo-list/)    | HTML - CSS- JAVASCRIPT |
 ---
 
 Happy coding! 🚀
