@@ -18,7 +18,9 @@ body {
 h1 {
   margin: 10px;
 }
-
+.newDiv {
+  display: flex;
+}
 .box {
   background-color: steelblue;
   color: #fff;
