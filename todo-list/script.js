@@ -21,33 +21,30 @@ function addTodo(todo) {
       todoEl.classList.add("completed");
     }
 
-    // Text elemanı (span veya p)
+    // Create a span or p for the text
     const textEl = document.createElement("span");
     textEl.innerText = todoText;
 
-    // Silme butonu
+    // Create delete button
     const deleteBtn = document.createElement("button");
     deleteBtn.innerText = "❌";
-    deleteBtn.style.marginLeft = "10px";
 
+    // Delete action
     deleteBtn.addEventListener("click", (e) => {
-      e.stopPropagation(); // completed toggle olmasın
+      //e.stopPropagation(); // prevent li click from toggling 'completed'
       todoEl.remove();
     });
 
-    // Tamamlandı toggle
+    // Toggle completed when li is clicked
     todoEl.addEventListener("click", () =>
       textEl.classList.toggle("completed")
     );
 
-    // Elemanları li içine ekle
+    // Append both
     todoEl.appendChild(textEl);
     todoEl.appendChild(deleteBtn);
-
-    // li'yi ul'ye ekle
     todos.appendChild(todoEl);
 
-    // input'u temizle
     input.value = "";
   }
 }
