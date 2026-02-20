@@ -54,6 +54,7 @@ Each project focuses on different aspects of frontend development, including:
 | 26 | [Mixed Message Generator](https://github.com/selenkarakaya/mixed-messages)             | [Live Demo](https://selenkarakaya.github.io/mixed-messages/)    | HTML - CSS- JAVASCRIPT |
 | 25 | [To Do List](https://github.com/selenkarakaya/tiny-web-creations/tree/main/todo-list)             | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/todo-list/)    | HTML - CSS- JAVASCRIPT |
 | 26 | [Valentine](https://github.com/selenkarakaya/tiny-web-creations/tree/main/valentine-card) | [Live Demo](https://lovedearlove.netlify.app) | HTML - CSS - JavaScript |
+| 27 | [Mixed Messages](https://github.com/selenkarakaya/tiny-web-creations/tree/main/mixed-messages) | [Live Demo](https://selenkarakaya.github.io/tiny-web-creations/mixed-messages/) | HTML - CSS - JavaScript |
 ---
 
 Happy coding! 🚀
