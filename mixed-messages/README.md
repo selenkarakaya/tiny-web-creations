@@ -25,4 +25,4 @@ The message is composed of three random parts: **subject**, **verb**, and **endi
 ## 🌟 Live Demo
 
 Check out the live demo of this project here:  
-[https://selenkarakaya.github.io/mixed-messages/](https://selenkarakaya.github.io/mixed-messages/) 👀✨
+[Live demo](https://selenkarakaya.github.io/tiny-web-creations/mixed-messages/) 👀✨
