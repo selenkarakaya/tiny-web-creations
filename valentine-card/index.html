@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine</title>
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: pink;
+        font-family: Arial, sans-serif;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        width: 500px;
+        position: relative;
+        z-index: 1000;
+      }
+
+      canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      #yesBtn {
+        background: #ff4da6;
+        color: white;
+        margin-right: 20px;
+      }
+
+      #noBtn {
+        background: #444;
+        color: white;
+        position: absolute;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="confetti"></canvas>
+    <div class="card" id="card">
+      <div id="question">
+        <h1>Hi my love,</h1>
+        <br />
+        <h1>Can I be your Valentine forever? 💖</h1>
+
+        <button id="yesBtn">Yes</button>
+        <button id="noBtn">No</button>
+      </div>
+      <div id="loveMessage" style="display: none; margin-top: 20px">
+        <h2>Best decision ever 🥰</h2>
+
+        <img
+          src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif"
+          style="width: 180px; border-radius: 12px"
+        />
+
+        <h2>I love you ❤️</h2>
+      </div>
+    </div>
+
+    <script>
+      const noBtn = document.getElementById("noBtn");
+      const card = document.getElementById("card");
+
+      const colors = [
+        "#ff3b30",
+        "#ff9500",
+        "#34c759",
+        "#007aff",
+        "#af52de",
+        "#ff2d55",
+        "#00c7be",
+      ];
+
+      function popSound() {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        const ctx = new AudioContext();
+
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+
+        osc.type = "square";
+        osc.frequency.value = 650;
+
+        gain.gain.setValueAtTime(0.08, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.08);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start();
+        osc.stop(ctx.currentTime + 0.09);
+
+        osc.onended = () => ctx.close();
+      }
+
+      noBtn.addEventListener("mouseenter", () => {
+        const maxX = card.clientWidth - noBtn.offsetWidth;
+        const maxY = card.clientHeight - noBtn.offsetHeight;
+
+        const randX = Math.random() * maxX;
+        const randY = Math.random() * maxY;
+
+        noBtn.style.left = randX + "px";
+        noBtn.style.top = randY + "px";
+
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        noBtn.style.background = randomColor;
+
+        popSound();
+      });
+
+      // ---------- CONFETTI ----------
+      const canvas = document.getElementById("confetti");
+      const ctx = canvas.getContext("2d");
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      window.addEventListener("resize", resize);
+      resize();
+
+      let pieces = [];
+
+      function createConfetti() {
+        for (let i = 0; i < 160; i++) {
+          pieces.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height - canvas.height,
+            size: Math.random() * 8 + 6,
+            d: Math.random() * 200,
+            color: `hsl(${Math.random() * 360},100%,60%)`,
+          });
+        }
+      }
+
+      function drawHeart(x, y, size, color) {
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.bezierCurveTo(x, y - size / 2, x - size, y - size / 2, x - size, y);
+        ctx.bezierCurveTo(x - size, y + size / 2, x, y + size, x, y + size);
+        ctx.bezierCurveTo(x, y + size, x + size, y + size / 2, x + size, y);
+        ctx.bezierCurveTo(x + size, y - size / 2, x, y - size / 2, x, y);
+        ctx.fill();
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        pieces.forEach((p) => {
+          drawHeart(p.x, p.y, p.size, p.color);
+        });
+
+        update();
+      }
+
+      function update() {
+        pieces.forEach((p) => {
+          p.y += 3;
+          p.x += Math.sin(p.d) * 0.7;
+
+          if (p.y > canvas.height) {
+            p.y = -10;
+            p.x = Math.random() * canvas.width;
+          }
+        });
+      }
+
+      let confettiRunning = false;
+
+      function animate() {
+        if (!confettiRunning) return;
+        draw();
+        requestAnimationFrame(animate);
+      }
+
+      document.getElementById("yesBtn").onclick = () => {
+        pieces = [];
+        createConfetti();
+        confettiRunning = true;
+        animate();
+
+        document.getElementById("loveMessage").style.display = "block";
+        document.getElementById("question").style.display = "none";
+      };
+    </script>
+  </body>
+</html>
